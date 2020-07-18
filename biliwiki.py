@@ -1,7 +1,4 @@
-try:
-    from urllib import quote
-except:
-    from urllib.parse import quote
+from urllib.parse import quote
 
 help_msg='''
 §r======= §6Minecraft biliWiki Searcher §r=======
