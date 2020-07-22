@@ -19,3 +19,6 @@ def on_info(server, info):
             else:
                 search_content=info.content[7:]
                 server.execute('tellraw ' + info.player + ' {"text":"[biliwiki]: 搜索 §6' + search_content + '§r 的结果","underlined":"false","clickEvent":{"action":"open_url","value":"https://searchwiki.biligame.com/mc/index.php?search=' + quote(search_content) + '"}}')
+
+def on_load(server, old_module):
+    server.add_help_message('!!wiki', '§f获取Wiki插件使用方法')
