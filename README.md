@@ -1,4 +1,11 @@
 # MCDR-WikiSearcher
+
+## WARNING/警告
+
+本分支只适配到MCDR1.0以下（不包括1.0）版本，MCDR1.0+请使用Master分支版本
+
+This branch only for MCDR 1.0 below (1.0 not included), MCDR1.0+ please use the master branch!
+
 这是一个能在Minecraft里面使用MC百科的插件，只有使用[MCDReforged](https://github.com/Fallen-Breath/MCDReforged)才能打上本插件
 一开始本来想用TIS的那个[MCWikiSeacher](https://github.com/TISUnion/MCwikisearcher)的，但是那个我用不了（有ImportError和无法触发的问题），于是我就打算自己手搓一个了
 
